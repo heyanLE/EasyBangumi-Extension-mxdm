@@ -2,6 +2,7 @@ package com.heyanle.easybangumi_extension
 
 import com.heyanle.easybangumi4.source_api.Source
 import com.heyanle.easybangumi4.source_api.SourceFactory
+import io.github.peacefulprogram.easybangumi_mxdm.MxdmApiSource
 
 
 /**
@@ -13,6 +14,7 @@ class EasySourceFactory: SourceFactory {
     override fun create(): List<Source> {
         return listOf(
             // 添加你的源
+            MxdmApiSource()
         )
     }
 }

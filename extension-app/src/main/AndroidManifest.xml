@@ -6,8 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/app_logo"
-        android:label="[APP 名称]"
+        android:icon="@mipmap/mxdm"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mxdm"
         android:supportsRtl="true">
 
 
